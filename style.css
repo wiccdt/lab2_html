@@ -1,0 +1,129 @@
+body {
+    background: #fafafa;
+    margin: 0;
+}
+header {
+    background: #333;
+    color: #fff;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    display: inline-block;
+}
+nav a:hover{
+    background: #00a884;
+}
+
+.gallery {
+    display: flex;
+    padding: 10px;
+}
+.gallery img {
+    object-fit: cover;
+    width: 30%;
+    height: 200px;
+    min-width: 150px; 
+}
+
+.cards {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    text-align: center;
+    margin: 25px;
+    width: 20%; 
+    min-width: 150px; 
+}
+.card img {
+    width: 40%;
+    height: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.card button {
+    background: #0078d7;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    padding: 0 5%; 
+}
+
+section img {
+    width: 20%;
+    margin: 10px;
+    min-width: 50px; 
+}
+
+section div {
+    min-width: 250px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.top-gallery {
+    position: relative;
+    height: 300px;
+}
+
+.top-gallery img {
+    position: absolute;
+    object-fit: cover;
+}
+
+.top-gallery img:nth-child(1) { 
+    width: 25%; 
+    height: 50%; 
+    left: 10%; 
+    top: 10%; 
+}
+
+.top-gallery img:nth-child(2) { 
+    width: 25%; 
+    height: 25%;
+    left: 60%; 
+    top: 85%;
+}
+
+.top-gallery img:nth-child(3) { 
+    width: 50%; 
+    height: 75%; 
+    left: 35%; 
+    top: 10%; 
+}
+
+.top-gallery img:nth-child(4) { 
+    width: 25%; 
+    height: 50%; 
+    top: 60%;
+    left: 10%;  
+}
+
+.top-gallery img:nth-child(5) { 
+    width: 25%; 
+    height: 25%; 
+    top: 85%;
+    left: 35%; 
+}
+
+.p-align{
+    text-align: right;
+}
